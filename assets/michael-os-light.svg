@@ -1,61 +1,35 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="960" height="490" viewBox="0 0 960 490" role="img" aria-labelledby="title desc">
-  <title id="title">Michael Alexander | Data, analytics and AI</title>
-  <desc id="desc">Animated terminal portrait of a data science graduate in Jakarta. Workflow: ingest, clean, model, explain. Learning AI-assisted development, prompting and output verification. Animation illustrates a workflow; it does not show live metrics.</desc>
-  <defs>
-    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#d6dfe5" stroke-width=".5" opacity=".38"/></pattern>
-    <clipPath id="clip"><rect x="1" y="1" width="958" height="488" rx="18"/></clipPath>
-    <style>
-      text {font-family:ui-monospace,SFMono-Regular,Consolas,"Liberation Mono",monospace;fill:#182b36}
-      .muted{fill:#526873} .accent{fill:#087d82} .tiny{font-size:11px;letter-spacing:1.4px}
-      .label{font-size:12px;letter-spacing:1.5px}
-      .cursor{animation:blink 1.4s steps(2,end) infinite}
-      .scan{animation:scan 12s linear infinite;opacity:.05}
-      .packet{animation:travel 9s linear infinite}
-      .reveal{animation:reveal 12s ease-in-out infinite}
-      .r2{animation-delay:1s}.r3{animation-delay:2s}
-      @keyframes blink{50%{opacity:0}}
-      @keyframes scan{from{transform:translateY(-490px)}to{transform:translateY(490px)}}
-      @keyframes travel{0%{transform:translateX(0);opacity:0}8%{opacity:1}92%{opacity:1}100%{transform:translateX(654px);opacity:0}}
-      @keyframes reveal{0%,100%{opacity:.45}15%,75%{opacity:1}}
-      @media(prefers-reduced-motion:reduce){.cursor,.scan,.packet,.reveal{animation:none}.scan,.packet{display:none}}
-    </style>
-  </defs>
-  <g clip-path="url(#clip)">
-    <rect width="960" height="490" fill="#f5f7f8"/>
-    <rect width="960" height="490" fill="url(#grid)"/>
-    <path d="M0 51H960M0 441H960" stroke="#d6dfe5"/>
-    <circle cx="29" cy="26" r="4" fill="#087d82"/>
-    <text x="44" y="30" class="tiny">LEXTERMORGAN / PERSONAL WORKSPACE</text>
-    <text x="931" y="30" text-anchor="end" class="tiny muted">01 : PROFILE</text>
-    <rect x="28" y="77" width="166" height="158" rx="10" fill="#ffffff" stroke="#d6dfe5"/>
-    <g class="accent" font-size="12" xml:space="preserve">
-      <text x="46" y="106" class="muted" font-size="10">+-- IDENTITY --+</text>
-      <text x="47" y="134"> /\  /\   /\ </text>
-      <text x="47" y="153">/  \/  \ /  \</text>
-      <text x="47" y="172">|      |/ /\ \</text>
-      <text x="47" y="191">|_|\/|_/_/  \_\</text>
-      <text x="46" y="218" class="muted" font-size="10">MA // JAKARTA</text>
-    </g>
-    <text x="222" y="100" class="label accent">HELLO, I'M</text>
-    <text x="219" y="145" font-size="37" font-weight="700" letter-spacing="-1.5">Michael Alexander</text>
-    <text x="222" y="177" font-size="15" class="muted">DATA SCIENCE / ANALYTICS / BUSINESS INTELLIGENCE</text>
-    <text x="222" y="211" font-size="14">I work with data. I build. I keep learning.</text>
-    <rect x="658" y="199" width="8" height="15" fill="#087d82" class="cursor"/>
-    <text x="29" y="266" class="tiny muted">WORKFLOW / FROM SOURCE TO EXPLANATION</text>
-    <path d="M140 302H814" stroke="#d6dfe5" stroke-width="2" stroke-dasharray="4 5"/>
-    <circle cx="145" cy="302" r="4" fill="#087d82" class="packet"/>
-    <g><rect x="28" y="283" width="195" height="39" rx="6" fill="#ffffff" stroke="#d6dfe5"/><text x="44" y="307" class="label muted">01</text><text x="82" y="307" class="label">INGEST</text></g>
-    <g><rect x="264" y="283" width="195" height="39" rx="6" fill="#ffffff" stroke="#d6dfe5"/><text x="280" y="307" class="label muted">02</text><text x="318" y="307" class="label">CLEAN</text></g>
-    <g><rect x="500" y="283" width="195" height="39" rx="6" fill="#ffffff" stroke="#d6dfe5"/><text x="516" y="307" class="label muted">03</text><text x="554" y="307" class="label">MODEL</text></g>
-    <g><rect x="736" y="283" width="195" height="39" rx="6" fill="#ffffff" stroke="#d6dfe5"/><text x="752" y="307" class="label muted">04</text><text x="790" y="307" class="label">EXPLAIN</text></g>
-    <rect x="28" y="348" width="904" height="70" rx="8" fill="#ffffff" stroke="#d6dfe5"/>
-    <text x="45" y="372" class="tiny accent">LEARNING LOG</text>
-    <text x="45" y="398" font-size="13" class="reveal">[+] AI-assisted development</text>
-    <text x="359" y="398" font-size="13" class="reveal r2">[+] Prompting</text>
-    <text x="620" y="398" font-size="13" class="reveal r3">[+] Checking AI outputs</text>
-    <text x="29" y="470" class="tiny muted">SQL + PYTHON + BI</text>
-    <text x="931" y="470" class="tiny muted" text-anchor="end">BUILD / QUESTION / REFINE</text>
-    <rect y="0" width="960" height="38" fill="#087d82" class="scan"/>
-  </g>
-  <rect x=".5" y=".5" width="959" height="489" rx="18" fill="none" stroke="#d6dfe5"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="700" viewBox="0 0 1100 700" role="img" aria-labelledby="title desc">
+<title id="title">Michael.OS — Michael Alexander</title>
+<desc id="desc">Animated terminal dashboard for Michael Alexander, a data analyst based in Jakarta.</desc>
+<defs>
+<style>
+text{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono",monospace;fill:#1d2730;dominant-baseline:alphabetic}.muted{fill:#5d6d78}.cyan{fill:#087d82}.line{stroke:#1d2730}.panel{fill:#ffffff;stroke:#ccd5db}.soft{fill:#2e2e2e}.barbg{fill:#dfe7eb}.bar{fill:#1d2730}.header{font-size:23px;letter-spacing:.5px}.body{font-size:19px}.small{font-size:16px}.log{font-size:18px}.pulse{animation:pulse 2.4s ease-in-out infinite}.p2{animation-delay:.4s}.p3{animation-delay:.8s}.p4{animation-delay:1.2s}.p5{animation-delay:1.6s}.reveal{animation:reveal 10s ease-in-out infinite}.d1{animation-delay:1.2s}.d2{animation-delay:2.4s}.d3{animation-delay:3.6s}.cursor{animation:blink 1.1s steps(2,end) infinite}.scan{animation:scan 10s linear infinite;opacity:.07}.b1{animation:load1 8s ease-in-out infinite}.b2{animation:load2 8s ease-in-out infinite}.b3{animation:load3 8s ease-in-out infinite}.b4{animation:load4 8s ease-in-out infinite}@keyframes blink{50%{opacity:0}}@keyframes pulse{0%,100%{opacity:.35}50%{opacity:1}}@keyframes reveal{0%,15%,100%{opacity:.25}25%,80%{opacity:1}}@keyframes scan{from{transform:translateY(-700px)}to{transform:translateY(700px)}}@keyframes load1{0%,100%{width:0}35%,70%{width:252px}}@keyframes load2{0%,100%{width:0}35%,70%{width:220px}}@keyframes load3{0%,100%{width:0}35%,70%{width:188px}}@keyframes load4{0%,100%{width:0}35%,70%{width:116px}}@media(prefers-reduced-motion:reduce){.pulse,.reveal,.cursor,.scan,.bar{animation:none}.b1{width:252px}.b2{width:220px}.b3{width:188px}.b4{width:116px}}
+</style>
+<clipPath id="clip"><rect x="1" y="1" width="1098" height="698" rx="22"/></clipPath>
+</defs>
+<g clip-path="url(#clip)">
+<rect width="1100" height="700" fill="#f5f7f8"/>
+<rect width="1100" height="700" fill="#f5f7f8"/>
+<rect x="24" y="24" width="1052" height="286" rx="16" class="panel"/>
+<text x="46" y="61" class="header cyan">┌─ MICHAEL.OS ─────────────────────────────────────────────────────────────┐</text>
+<text x="46" y="95" class="body">│ user        michael alexander       location  jakarta, indonesia        │</text>
+<text x="46" y="127" class="body">│ role        data analyst            status    building                  │</text>
+<text x="46" y="159" class="header">└─────────────────────────────────────────────────────────────────────────┘</text>
+<text x="46" y="205" class="header cyan">│ DATA PIPELINE                                                        │</text>
+<text x="46" y="244" class="body">│ [INGEST] ━━━ [CLEAN] ━━━ [MODEL] ━━━ [EXPLAIN] ━━━ [DECIDE]          │</text>
+<circle cx="155" cy="275" r="7" fill="#1d2730" class="pulse"/><circle cx="346" cy="275" r="7" fill="#1d2730" class="pulse p2"/><circle cx="535" cy="275" r="7" fill="#1d2730" class="pulse p3"/><circle cx="724" cy="275" r="7" fill="#087d82" class="pulse p4"/><circle cx="902" cy="275" r="7" fill="none" stroke="#1d2730" stroke-width="2" class="pulse p5"/>
+<rect x="24" y="330" width="1052" height="346" rx="16" class="panel"/>
+<text x="46" y="367" class="header cyan">┌─ WORKBENCH ──────────────────────────────────────────────────────────────┐</text>
+<text x="46" y="409" class="body">│ sql_query       </text><rect x="280" y="391" width="280" height="19" rx="3" class="barbg"/><rect x="280" y="391" width="0" height="19" rx="3" class="bar b1"/><text x="580" y="409" class="body muted">READY       │</text>
+<text x="46" y="443" class="body">│ data_quality    </text><rect x="280" y="425" width="280" height="19" rx="3" class="barbg"/><rect x="280" y="425" width="0" height="19" rx="3" class="bar b2"/><text x="580" y="443" class="body muted">CHECKING    │</text>
+<text x="46" y="477" class="body">│ ai_workbench    </text><rect x="280" y="459" width="280" height="19" rx="3" class="barbg"/><rect x="280" y="459" width="0" height="19" rx="3" class="bar b3"/><text x="580" y="477" class="body muted">LEARNING     │</text>
+<text x="46" y="511" class="body">│ coffee_level    </text><rect x="280" y="493" width="280" height="19" rx="3" class="barbg"/><rect x="280" y="493" width="0" height="19" rx="3" class="bar b4"/><text x="580" y="511" class="body muted">LOW          │</text>
+<text x="46" y="545" class="header">└─────────────────────────────────────────────────────────────────────────┘</text>
+<text x="46" y="581" class="log reveal">│ &gt; analyzing messy data</text>
+<text x="46" y="609" class="log reveal d1">│ &gt; validating business metrics</text>
+<text x="46" y="637" class="log reveal d2">│ &gt; building decision-ready dashboards</text>
+<text x="46" y="665" class="log reveal d3">│ &gt; exploring AI-assisted workflows<tspan class="cursor cyan">_</tspan></text>
+<rect y="0" width="1100" height="3" fill="#087d82" class="scan"/>
+</g>
+<rect x="1" y="1" width="1098" height="698" rx="22" fill="none" stroke="#ccd5db"/>
 </svg>
