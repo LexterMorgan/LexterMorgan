@@ -13,7 +13,7 @@ text{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,"Liberation M
 <rect x="24" y="24" width="1052" height="286" rx="16" class="panel"/>
 <text x="46" y="61" class="header cyan">┌─ MICHAEL.OS ─────────────────────────────────────────────────────────────┐</text>
 <text x="46" y="95" class="body">│ user        michael alexander       location  jakarta, indonesia        │</text>
-<text x="46" y="127" class="body">│ role        data analyst            status    building                  │</text>
+<text x="46" y="127" class="body">│ role        data analyst            status    open to work                  │</text>
 <text x="46" y="159" class="header">└─────────────────────────────────────────────────────────────────────────┘</text>
 <text x="46" y="205" class="header cyan">│ DATA PIPELINE                                                        │</text>
 <text x="46" y="244" class="body">│ [INGEST] ━━━ [CLEAN] ━━━ [MODEL] ━━━ [EXPLAIN] ━━━ [DECIDE]          │</text>
