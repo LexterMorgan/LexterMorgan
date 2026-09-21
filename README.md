@@ -2,18 +2,22 @@
 
 # Michael Alexander
 
-<img src="https://readme-typing-svg.demolab.com?font=IBM+Plex+Mono&size=18&duration=2600&pause=900&color=22D3EE&center=true&vCenter=true&width=760&lines=%3E+turning+complex+data+into+clear+decisions;%5BSQL%5D+%5BPYTHON%5D+%5BBI%5D+%5BDASHBOARDS%5D;%3E+data+that+people+can+act+on" alt="Animated data analytics tagline" />
+<img src="https://readme-typing-svg.demolab.com?font=IBM+Plex+Mono&size=18&duration=2400&pause=700&color=22D3EE&center=true&vCenter=true&width=820&height=70&lines=%3E+turning+complex+data+into+clear+decisions;%5BSQL%5D+%5BPYTHON%5D+%5BBI%5D+%5BDASHBOARDS%5D;%3E+data+that+people+can+act+on" alt="Animated data analytics tagline" />
+
+<img src="https://readme-typing-svg.demolab.com?font=IBM+Plex+Mono&size=13&duration=1900&pause=500&color=94A3B8&center=true&vCenter=true&width=720&height=45&lines=%24+init+portfolio;%5BOK%5D+data+cleaned;%5BOK%5D+insight+validated;%5BOK%5D+dashboard+ready;%24+ship+the+work" alt="Animated terminal status" />
 
 </div>
 
 <pre>
-+------------------------------------------------------------------+
-|  MICHAEL ALEXANDER // DATA INTELLIGENCE                         |
++==================================================================+
+|  MICHAEL ALEXANDER // DATA INTELLIGENCE                          |
 |                                                                  |
-|  DATA  ->  CLEAN  ->  MODEL  ->  EXPLAIN  ->  DECIDE             |
+|  +----------+     +----------+     +----------+     +----------+ |
+|  |  INGEST  | --> |  CLEAN   | --> |  MODEL   | --> |  DECIDE  | |
+|  +----------+     +----------+     +----------+     +----------+ |
 |                                                                  |
-|  BUSINESS INTELLIGENCE  •  DATA ANALYTICS  •  DATA PRODUCTS      |
-+------------------------------------------------------------------+
+|  status: ONLINE       signal: BUSINESS INTELLIGENCE              |
++==================================================================+
 </pre>
 
 <div align="center">
@@ -34,8 +38,8 @@ Business Intelligence / Data Analytics / Data Products
 $ build
 Data cleaning · ETL · SQL · data modeling · interactive dashboards
 
-$ principle
-Answer the business question before choosing the chart.
+$ status
+Open to opportunities
 ```
 
 ## About
@@ -52,7 +56,7 @@ I build end-to-end analytics projects across:
 - Interactive dashboards
 - Evidence-based decision support
 
-My work focuses on making analysis understandable, traceable, and useful for real business questions.
+My goal is to make analysis understandable, traceable, and useful for real business questions.
 
 ## Tech stack
 
@@ -64,7 +68,7 @@ My work focuses on making analysis understandable, traceable, and useful for rea
 [![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=mysql&logoColor=white)](https://en.wikipedia.org/wiki/SQL)
 [![Excel](https://img.shields.io/badge/Excel-217346?style=flat-square&logo=microsoftexcel&logoColor=white)](https://www.microsoft.com/microsoft-365/excel)
 
-### Databases & data modeling
+### Databases & modeling
 
 [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)](https://www.postgresql.org/)
 [![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)](https://www.mysql.com/)
@@ -88,80 +92,63 @@ My work focuses on making analysis understandable, traceable, and useful for rea
 [![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)](https://vite.dev/)
 [![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)](https://git-scm.com/)
 
-## Featured work
+## What I build
 
-### [RetailIQ — Executive Retail Analytics Dashboard](https://github.com/LexterMorgan/retailiq-executive-dashboard)
+```text
++----------------------------------------------------------------+
+|  DATA PRODUCTS                                                 |
++----------------------------------------------------------------+
+|  [01] BUSINESS INTELLIGENCE                                    |
+|       Dashboards designed around decisions, not decoration.    |
+|                                                                |
+|  [02] ANALYTICS WORKFLOWS                                      |
+|       Raw data -> clean data -> analysis -> useful output.     |
+|                                                                |
+|  [03] DATA PRODUCTS                                            |
+|       Interfaces that make complex information easier to use.  |
+|                                                                |
+|  [04] RESEARCH SYSTEMS                                         |
+|       Evidence, provenance, assumptions, and limitations.      |
++----------------------------------------------------------------+
+```
 
-End-to-end business intelligence project analyzing global electronics retail performance.
+- Business intelligence dashboards for executive decision-making
+- Data pipelines from raw files to analysis-ready datasets
+- SQL and Python workflows for business analysis
+- Customer, market, and communication intelligence products
+- Evidence-first case studies with visible assumptions
+- Interfaces that help people understand what to do next
 
-`CSV data` → `Python ETL` → `PostgreSQL` → `SQL analytics` → `React dashboard`
+## Learning and working with AI
 
-Focus areas:
+```text
++--------------------------------------------------------------+
+|  AI WORKBENCH                                                |
++--------------------------------------------------------------+
+|  LEARN  ->  TEST  ->  VERIFY  ->  EXPLAIN  ->  SHIP          |
++--------------------------------------------------------------+
+```
 
-- Revenue and order performance
-- Customer and product analysis
-- Store and geographic performance
-- Executive KPI monitoring
+I’m actively learning how to use AI responsibly inside the analytics and product workflow:
 
-[![Live dashboard](https://img.shields.io/badge/Live%20dashboard-Open-2563EB?style=flat-square&logo=vercel&logoColor=white)](https://retailiq-executive-dashboard.vercel.app/)
+- AI-assisted development for data products and dashboards
+- LLM workflows for research, documentation, and analysis support
+- Prompting that keeps outputs grounded in source data
+- Evaluating AI-generated results instead of accepting them automatically
+- Using AI to explore ideas faster while keeping human judgment in control
+- Designing interfaces that make analytical context and uncertainty visible
 
----
-
-### [FOLU — Executive Intelligence Dashboard](https://github.com/LexterMorgan/folu-executive-dashboard)
-
-Communication-intelligence dashboard for FOLU Net Sink 2030.
-
-Focus areas:
-
-- Sentiment intelligence
-- Campaign analytics
-- Risk monitoring
-- Trend analysis
-- Platform insights
-- Executive recommendations
-
-[![Live dashboard](https://img.shields.io/badge/Live%20dashboard-Open-2D6A4F?style=flat-square&logo=vercel&logoColor=white)](https://folu-executive-dashboard.vercel.app/)
-
----
-
-### [Customer Retention Intelligence](https://github.com/LexterMorgan/customer-retention-intelligence)
-
-Customer churn and retention analysis focused on identifying where customer loss concentrates and which segments deserve attention first.
-
-Focus areas:
-
-- Contract and tenure analysis
-- Churn-risk segmentation
-- Retention prioritization
-- SQL business analysis
-- Executive dashboard reporting
-
-[![Live dashboard](https://img.shields.io/badge/Live%20dashboard-Open-2563EB?style=flat-square&logo=vercel&logoColor=white)](https://customer-retention-intelligence.vercel.app/)
-
----
-
-### [E-Commerce Power Shift](https://github.com/LexterMorgan/ecommerce-power-shift)
-
-Evidence-driven competitive analysis of Shopee and Tokopedia-related entities in Indonesia.
-
-Focus areas:
-
-- Market-share comparison
-- Structural-break analysis
-- Evidence labeling
-- Unknown-value handling
-- Scenario analysis
-- Static executive dashboard
+AI should accelerate the work, not replace the responsibility to verify it.
 
 ## How I work
 
 ```text
-1. Define the business question
-2. Inspect and validate the data
-3. Separate observed facts from derived values
-4. Model the analysis around decisions
-5. Make uncertainty visible
-6. Build an interface people can actually use
+[01] ASK BETTER QUESTIONS
+[02] KEEP DATA LINEAGE
+[03] SEPARATE FACT FROM ASSUMPTION
+[04] EXPOSE UNCERTAINTY
+[05] BUILD CLEAR OUTPUTS
+[06] SHIP SOMETHING USEFUL
 ```
 
 I avoid presenting correlation as causation, unknown values as zero, or dashboards as a substitute for analysis.
@@ -171,7 +158,8 @@ I avoid presenting correlation as causation, unknown values as zero, or dashboar
 - Evidence-backed portfolio case studies
 - Business intelligence dashboards
 - Reproducible analytics workflows
-- Data products that connect analysis to decisions
+- AI-assisted data products
+- Interfaces that connect analysis to decisions
 
 ## Connect
 
@@ -181,10 +169,10 @@ I avoid presenting correlation as causation, unknown values as zero, or dashboar
 
 <div align="center">
 
-```text
+<pre>
 +--------------------------------------------------------------+
 |  DATA IS ONLY USEFUL WHEN PEOPLE CAN UNDERSTAND WHAT TO DO   |
 +--------------------------------------------------------------+
-```
+</pre>
 
 </div>
